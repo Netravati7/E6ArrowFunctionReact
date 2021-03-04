@@ -11,10 +11,10 @@ ReactDOM.render(
 var numbers = [2, 3, 5, 19, 10];
 
 //Map using ananymous function
-const newNumbers = numbers.map((num) => num * num);
+const newNumbers = numbers.map(num => num * num);
 console.log(newNumbers);
 
-const newNumber = numbers.map((num) => num * 2);
+const newNumber = numbers.map(num => num * 2);
 console.log(newNumber);
 
 //using foreach
